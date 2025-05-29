@@ -13,10 +13,20 @@ body{
     height: 3rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #header_index h3{
+    margin: 5px;
     color: rgb(1, 1, 129);
     font-family: cursive;
+}
+
+.material-icons{
+    transition: 0.2s ease-out;
+}
+.material-icons:hover{
+cursor: pointer;
+color: aliceblue;
+transform: scale(1.2);
 }
