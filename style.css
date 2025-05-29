@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(93, 139, 209);
+
+}
+#header_index{
+    width: 100%;
+    background: rgb(116, 172, 255);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#header_index h3{
+    color: rgb(1, 1, 129);
+    font-family: cursive;
+}
