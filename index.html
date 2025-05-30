@@ -10,14 +10,22 @@
 <body>
     <header id="header_index">
         <h3>Notes</h3>
-        <i class="material-icons">add_box</i>
+        <i class="material-icons" id="novaNotaBtn">add_box</i>
     </header>
 
-    <main>
-        <div id="All-Notes">
-            
-        </div>
-    </main>
+    <div class="editor-container" id="editorContainer" style="display: none;">
+      <input type="text" id="notaTitulo" placeholder="Título da nota">
+      <textarea id="notaConteudo" placeholder="Digite seu conteúdo aqui..."></textarea>
+      <div class="editor-botoes">
+        <button id="salvarNotaBtn">Salvar</button>
+        <button id="cancelarNotaBtn">Cancelar</button>
+      </div>
+    </div>
+
+    <div class="notas-container" id="notasContainer">
+      <!-- Notas serão carregadas aqui via JavaScript -->
+    </div>
+  </div>
     <script src="script.js"></script>
 </body>
 </html>
