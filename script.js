@@ -1,4 +1,4 @@
-const webservice= "http://localhost:3000"
+const webservice= "https://anotacoes-backend.onrender.com" //"http://localhost:3000"
 
 
 // frontend/js/app.js
